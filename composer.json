@@ -1,0 +1,21 @@
+{
+  "name": "fakebook/fakebook",
+  "type": "project",
+  "authors": [
+    {
+      "name": "karaev andrey",
+      "email": "karaevandrey2000@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "*",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "fb\\classes\\": "application/models",
+      "fb\\config\\": "configurations/"
+    }
+  }
+}
+  
